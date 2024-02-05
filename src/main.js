@@ -8,22 +8,18 @@
  * NOTE: Something that should be noted.
  */
 
-import './lib/env';
-import { mainLogger } from './lib/logger';
+require('./lib/env');
+const { mainLogger } = require('./lib/logger');
 
 function main() {
 	try {
-		mainLogger.silly('Please star & contribute the repository :)');
-		mainLogger.silly('https://github.com/ProxityStudios/typescript-starter');
+		mainLogger.silly('Please star and contribute the repository :)');
+		mainLogger.silly('https://github.com/ProxityStudios/javascript-starter');
 
 		// DO STUFF
-		mainLogger.info('BEEP OP');
+		// mainLogger.info('BEEP OP');
 	} catch (error) {
-		if (error instanceof Error) {
-			mainLogger.error(error.message);
-		} else {
-			mainLogger.error(error);
-		}
+		mainLogger.error(error);
 	}
 }
 

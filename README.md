@@ -1,4 +1,4 @@
-# [Typescript Starter](https://github.com/ProxityStudios/typescript-starter)
+# [JavaScript Starter](https://github.com/ProxityStudios/javascript-starter)
 
 This source is designed to prevent developers from doing things over and over again.
 
@@ -15,13 +15,8 @@ This source is designed to prevent developers from doing things over and over ag
 
 ## Included Dev Packages
 
-- `@types/node`
-- `@types/yargs`
-- `@typescript-eslint/eslint-plugin`
-- `@typescript-eslint/parser`
 - `eslint`
 - `eslint-config-airbnb-base`
-- `eslint-config-airbnb-typescript`
 - `eslint-config-prettier`
 - `eslint-formatter-pretty`
 - `eslint-plugin-eslint-comments`
@@ -30,10 +25,9 @@ This source is designed to prevent developers from doing things over and over ag
 - `eslint-plugin-promise`
 - `eslint-plugin-unicorn`
 - `npm-run-all`
+- `nodemon`
 - `prettier`
 - `rimraf`
-- `ts-node-dev`
-- `typescript`
 
 ## Recommended Extensions
 
@@ -47,54 +41,41 @@ We recommend you to install these extensions.
 
 #### <a href="#installscript"></a> Install dependencies
 
-```
+```sh
 npm run install
 ```
 
 #### <a href="#start"></a> Start the project. You must build the project by using `npm run build` command
 
-```
+```sh
 npm run start
 ```
 
 #### <a href="#startdevelopment"></a> Start the project in development environment
 
-```
+```sh
 npm run dev
-```
-
-#### <a href="#build"></a> Build the project
-
-```
-npm run build
-```
-
-#### Clean compiled code
-
-```
-npm run clean
 ```
 
 #### Fix eslint & prettier errors
 
-```
+```sh
 npm run fix
 ```
 
 ## Guides
 
-### Setup Guide
+### Development
 
 1. Install dependencies by using [this](#installscript) script
 2. Rename the `.env.development example` file to `.env.development`
 3. Start development by using [this](#startdevelopment) script
 4. Code somethings...
 
-#### Production Usage
+#### Production
 
-1. Build the project by using [this](#build) script
-2. Rename the `.env example` file to `.env`
-3. Start the project by using [this](#start) script
+1. Rename the `.env example` file to `.env`
+2. Start the project by using [this](#start) script
 
 ### `TODO Highlighting` Extension Guide
 
